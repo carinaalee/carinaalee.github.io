@@ -11,9 +11,9 @@ body {
 /* the main container */
 
 .card{
- width:60%;
- height:100%;
-  margin: 0 auto;
+  width:60%;
+  height:100%;
+  margin: 3em auto;
   overflow: hidden;
   box-shadow: 2px 5px 15px 0px #17161694;
   background-color:rgba(255, 255, 255, 0.849);
