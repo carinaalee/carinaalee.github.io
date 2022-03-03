@@ -1,0 +1,73 @@
+*{
+    /* border:dashed; */
+}
+/* color styling */
+.color-one{
+    fill:rgba(15, 224, 207, .7);
+}
+
+.color-two{
+    fill:rgba(251, 72, 196, .4)
+}
+/* grid */
+/* the container for both the links and the background image */
+
+#link-tree{
+display:grid;
+background-color: red;
+grid-template-columns: 1fr;
+grid-template-rows: auto;
+}
+
+/* the container for all of the links */
+#links-container{
+grid-column: 1 / 2;
+position: absolute;
+width:100%;
+height:100%;
+object-fit: cover;
+z-index:20;
+}
+
+#heart{
+grid-column: 1 / 2;
+position: abolute;
+width:100%;
+height:100%;
+object-fit: cover;
+z-index:2;
+}
+
+
+/* puts the icons next to the link */
+.link{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto; 
+}
+
+/* typography */
+
+/* animation */
+.fade{
+    animation: fade 5s infinite
+}
+
+
+@keyframes fade{
+    from{
+        fill:rgba(15, 224, 207);
+    }
+    to{
+        fill:rgba(251, 72, 196)
+    }
+}
+
+
+
+
+
+
+
+
+

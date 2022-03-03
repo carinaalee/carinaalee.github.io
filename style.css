@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box;
+    border:dashed; */
+    }
+
+body {
+    background-color: rgba(99, 164, 180, 0.815);
+}
+/* the main container */
+
+.card{
+ width:70%;
+ height:100%;
+  margin: 3em auto;
+  overflow: hidden;
+  box-shadow: 2px 5px 15px 0px #17161694;
+  background-color:rgba(255, 255, 255, 0.849);
+  border-radius: 25px;
+}
+
+.front-card{
+
+  background-image: url("assets/csfrontnew2.svg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+ 
+.back-card {
+  background-image: url("assets/csback.svg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+h1{
+  /* to left align text */
+  font-size: 5em;
+  margin-top: 10%;
+  margin-left:20%;
+
+font-family: 'Raleway', sans-serif;
+}
+
+.back-text {
+  margin-top: 50%;
+  margin-left:20%;
+}
+
+h3{
+  font-size: 3em;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 75%;
+  margin-left: 40%;
+  fill:rgb(228, 228, 228);
+}
+
+h5{
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.icon-container{
+  display:grid;
+  /* grid-row-gap: */
+  width: 10%;
+  /* margin: auto; */
+  margin-left:15%;
+  /* bottom:50px; */
+  margin-top: 70%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+svg{
+  fill:rgb(255, 255, 255);
+}
+
+svg:hover{
+  fill:rgb(65, 65, 65);
+}
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: rgb(99, 164, 180, 0.815);
+  }
+  .card{
+  width:40%;
+  /* width:400px; */
+/* height:750px; */
+}
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    background-color: rgba(99, 164, 180, 0.815);
+  }
+  .card{
+  width: 950px;
+  height: 100%;
+  /* width:400px; */
+  /* height:750px; */
+
+}
+}
