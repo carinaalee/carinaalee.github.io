@@ -65,11 +65,14 @@ h5{
   /* grid-row-gap: */
   width: 10%;
   /* margin: auto; */
-  margin-left:15%;
+  margin-left:45%;
   /* bottom:50px; */
   margin-top: 70%;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+}
+svg{
+  fill:rgb(255, 255, 255);
 }
 svg{
   fill:rgb(255, 255, 255);
@@ -98,6 +101,5 @@ svg:hover{
   height: 100%;
   /* width:400px; */
   /* height:750px; */
-
 }
 }
